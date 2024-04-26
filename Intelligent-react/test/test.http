@@ -1,0 +1,11 @@
+GET http://localhost:8081/car/car_condition
+
+{
+    'brand': searchParams.get('brand') ?? null,
+    'subBrand': searchParams.get('subBrand') ?? null,
+    'model': searchParams.get('model') ?? null,
+    'type': null,
+    'dynamicType': null,
+    'minPrice': null,
+    'maxPrice': null,
+}

@@ -1,0 +1,243 @@
+.banner-form {
+  width: 410px;
+  height: 330px;
+  position: absolute;
+  top: 74px;
+  right: 72px;
+  border-radius: 4px;
+  padding: 30px 30px;
+  background-color: #fff;
+}
+
+.faq-text:before {
+  content: '';
+  position: absolute;
+  top: -18px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-width: 18px 0 0 25px;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+}
+
+.faq-text {
+  position: relative;
+  margin: 30px 0 0 40px;
+  padding: 15px 25px;
+  background-color: #fff;
+  color: #7e7e7e;
+  font-size: 14px;
+  line-height: 1.7;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+}
+
+.faq-title > span {
+  display: inline-block;
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  background-color: #aaa;
+  color: #fff;
+  border-radius: 50%;
+  vertical-align: middle;
+  font-size: 14px;
+  text-align: center;
+}
+
+.faq-title {
+  font-size: 20px;
+  color: #888;
+}
+
+.problem-body > ul > li {
+  display: inline-block;
+  vertical-align: text-top;
+  margin: 35px 40px 0 35px;
+  width: 43%;
+  font-size: 12px;
+  text-align: left;
+}
+
+.problem-title > span {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.problem-title > span::before {
+  position: absolute;
+  left: 38px;
+  bottom: -20px;
+  content: '';
+  width: 46px;
+  height: 2px;
+  background-color: #f29600;
+  z-index: 10;
+}
+
+.problem-title {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: #555;
+}
+
+.problem-body {
+  width: 1200px;
+  min-width: 1200px;
+  height: 100%;
+  position: relative;
+  padding: 55px 0;
+  margin: 0 auto;
+}
+
+.common-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  position: absolute;
+  top: 0;
+}
+
+.common-problem {
+  width: 100%;
+  height: 687px;
+  position: relative;
+}
+
+.p-info {
+  line-height: 1.5;
+  font-size: 16px;
+  color: #777;
+}
+
+.title {
+  font-size: 32px;
+  color: #555;
+  font-weight: 700;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.spt-num3 {
+  background-position: -10px -10px;
+}
+
+.spt-num2 {
+  background-position: -10px -70px;
+}
+
+.warpper-info > ul > li > p > span {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 130px;
+  height: 40px;
+  background-image: url('/carsell/num_img@1x.png');
+  background-repeat: no-repeat;
+}
+
+.warpper-info > ul > li {
+  float: left;
+  width: 289px;
+  height: 111px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+
+.warpper-info {
+  width: 1200px;
+  height: 100%;
+  min-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  padding: 50px 0 90px;
+}
+
+.warpper-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.warpper-container {
+  width: 100%;
+  height: 251px;
+  position: relative;
+}
+
+.bottom-img {
+  width: 39px;
+  height: 37px;
+  margin: 0 auto 10px;
+  background-repeat: no-repeat;
+  background-image: url('/carsell/banner_bottom@1x.png');
+}
+
+.pos-4 {
+  background-position: -68px -68px;
+}
+
+.pos-3 {
+  background-position: -10px -68px;
+}
+
+.pos-2 {
+  width: 46px;
+  background-position: -10px -10px;
+}
+
+.pos-1 {
+  background-position: -76px -10px;
+}
+
+.info-bottom > ul > li > img {
+  margin: 15px 10px 40px;
+  width: 180px;
+}
+
+.info-bottom > ul > li {
+  float: left;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+.info-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 105px;
+  padding: 0 100px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.sell-bg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sell-bg {
+  width: 100%;
+  height: 590px;
+  position: absolute;
+  top: 0;
+}
+
+.info-container {
+  width: 1200px;
+  height: 100%;
+  min-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.banner-container {
+  width: 100%;
+  height: 590px;
+  position: relative;
+}

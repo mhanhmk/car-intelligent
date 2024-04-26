@@ -1,0 +1,25 @@
+Intelligent-end/target/
+Intelligent-end/!.mvn/wrapper/maven-wrapper.jar
+Intelligent-end/!**/src/main/**/target/
+Intelligent-end/!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+Intelligent-end/.idea/modules.xml
+Intelligent-end/.idea/jarRepositories.xml
+Intelligent-end/.idea/compiler.xml
+Intelligent-end/.idea/libraries/
+Intelligent-end/*.iws
+Intelligent-end/*.iml
+Intelligent-end/*.ipr
+
+### VS Code ###
+Intelligent-react/.vscode/
+Intelligent-react/dist/
+Intelligent-react/node_modules/
+
+Intelligent-forecast/venv
+Intelligent-forecast/__pycache__
+Intelligent-forecast/.idea
+
+### Mac OS ###
+.DS_Store

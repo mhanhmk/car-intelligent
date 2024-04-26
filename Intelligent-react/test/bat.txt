@@ -1,0 +1,41 @@
+function ScrollMenu({ section, setOption }) {
+  // const [isTopHidden, setIsTopHidden] = useState(true)
+  // const [isBottomHidden, setIsBottomHidden] = useState(false)
+
+  // const handleScroll = event => {
+  //   setIsTopHidden(event.target.scrollTop === 0)
+  //   setIsBottomHidden(event.target.scrollHeight - event.target.scrollTop === event.target.clientHeight)
+  // }
+
+  return (
+    <div>
+      <p id={`${section.name}-heading`} className="font-medium text-gray-900">
+        {section.name}
+      </p>
+      {/* <div className="relative"> */}
+      {/* <div className={isTopHidden ? '' : 'before-menu-shadow'}></div> */}
+      <div
+        className="mt-4 space-y-6 max-h-80 overflow-hidden hover:overflow-y-auto scroll-smooth hover:scroll-auto relative snap-proximity snap-y"
+        // onScroll={handleScroll}
+      >
+        {section.items.map(item => (
+          <div key={item} className="flex snap-center">
+            <button
+              onClick={() => {
+                setOption(opt => ({
+                  ...opt,
+                  [section.id]: item,
+                }))
+              }}
+              className="hover:text-gray-800"
+            >
+              {item}
+            </button>
+          </div>
+        ))}
+        {/* </div> */}
+        {/* <div className={isBottomHidden ? '' : 'after-menu-shadow'}></div> */}
+      </div>
+    </div>
+  )
+}

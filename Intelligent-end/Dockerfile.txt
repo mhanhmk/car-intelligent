@@ -1,0 +1,5 @@
+FROM williamyeh/java8:latest
+LABEL authors="hmk"
+
+ADD Intelligent-end-1.0-SNAPSHOT.jar /usr/src/carsale.jar
+ENTRYPOINT ["nohup", "java", "-jar", "/usr/src/carsale.jar", "&"]

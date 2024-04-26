@@ -1,0 +1,42 @@
+## 端口号 上下文路径
+server:
+  port: 8081
+
+## 数据源配置
+
+spring:
+  redis:
+    host: 192.168.204.24
+  mvc:
+    #出现错误时, 直接抛出异常
+    throw-exception-if-no-handler-found: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.204.24:3306/car_sale?allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: "1234"
+    hikari:
+      max-lifetime: 120000
+  mail:
+    host: smtp.qq.com  #配置smtp服务器地址
+    port: 587  # 配置smtp服务器端口地址
+    username: 2879688857@qq.com  # 配置邮箱用户名
+    password:   # 邮箱的授权码
+    default-encoding: UTF-8
+    properties:
+      mail:
+        debug: true
+#        smtp:
+#          socketFactoryClass: javax.net.ssl.SSLSocketFactory  # 配置ssl加密工厂
+    from: 2879688857@qq.com # 发送方邮件, 配置在yml中方便修改
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+page helper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql

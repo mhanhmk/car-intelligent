@@ -1,0 +1,7 @@
+{
+  "serverUrl": "http://localhost:8081",
+  "coverOld": true,
+  "allInOne": true,
+  "style": "xt256",
+  "outPath": "D:\\test\\doc"
+}
